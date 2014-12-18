@@ -33,7 +33,7 @@
  * limitations under the License.
  */
 
-package com.wysie.wydialer;
+package com.cosiness.fydialer;
 
 import android.content.ContentResolver;
 import android.content.Intent;
@@ -77,9 +77,9 @@ abstract class ContactAccessor {
              */
             int sdkVersion = Integer.parseInt(Build.VERSION.SDK);       // Cupcake style
             if (sdkVersion < Build.VERSION_CODES.ECLAIR) {
-                className = "com.wysie.wydialer.ContactAccessorSdk3_4";
+                className = "com.cosiness.fydialer.ContactAccessorSdk3_4";
             } else {
-                className = "com.wysie.wydialer.ContactAccessorSdk5";
+                className = "com.cosiness.fydialer.ContactAccessorSdk5";
             }
 
             /*

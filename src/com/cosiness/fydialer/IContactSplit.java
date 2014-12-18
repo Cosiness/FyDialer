@@ -1,4 +1,4 @@
-package com.wysie.wydialer;
+package com.cosiness.fydialer;
 
 import android.database.Cursor;
 import android.net.Uri;

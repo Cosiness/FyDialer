@@ -1,4 +1,4 @@
-package com.wysie.wydialer;
+package com.cosiness.fydialer;
 
 import android.content.ContentResolver;
 import android.content.Intent;

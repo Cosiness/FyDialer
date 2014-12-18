@@ -40,7 +40,7 @@
 // - suck the whole thing into memory? would suck for lots of contacts...
 // - do a join and have a non 1:1 mapping from results to rows?
 
-package com.wysie.wydialer;
+package com.cosiness.fydialer;
 
 import java.text.Collator;
 import java.util.ArrayList;

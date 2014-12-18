@@ -1,4 +1,4 @@
-package com.wysie.wydialer;
+package com.cosiness.fydialer;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -9,9 +9,6 @@ import android.provider.Contacts.People;
 import android.provider.ContactsContract.Contacts;
 import android.provider.ContactsContract.Intents.Insert;
 import android.provider.ContactsContract.CommonDataKinds.Phone;
-import android.telephony.PhoneNumberUtils;
-
-import android.database.sqlite.SQLiteQueryBuilder;
 
 final class ContactAccessorSdk5 extends ContactAccessor {
 	ContentResolver myContentResolver;
